@@ -30,7 +30,7 @@
 						<bottom>340</bottom>
 						<pagecontrol>60</pagecontrol>
 						<scrolltime tween="quadratic" easing="out">300</scrolltime>
-						<timeblocks>34</timeblocks>
+						<timeblocks>26</timeblocks>
 						<rulerunit>6</rulerunit>
 						<onleft>9000</onleft>
 						<onright>60</onright>
@@ -64,7 +64,7 @@
 								<top>-2</top>
 								<width>350</width>
 								<height>60</height>
-								<font>font12</font>
+								<font>font14</font>
 								<label>$INFO[ListItem.ChannelName]</label>
 								<aligny>center</aligny>
 								<textoffsetx>10</textoffsetx>
@@ -87,7 +87,7 @@
 								<top>-2</top>
 								<width>350</width>
 								<height>60</height>
-								<font>font12</font>
+								<font>font14</font>
 								<label>$INFO[ListItem.ChannelName]</label>
 								<textcolor>button_focus</textcolor>
 								<aligny>center</aligny>
@@ -106,7 +106,7 @@
 								<width>50</width>
 								<height>36</height>
 								<aligny>center</aligny>
-								<font>font12</font>
+								<font>font14</font>
 								<label>$INFO[ListItem.Label]</label>
 							</control>
 							<control type="image">
@@ -144,7 +144,7 @@
 								<width>50</width>
 								<height>36</height>
 								<aligny>center</aligny>
-								<font>font12</font>
+								<font>font14</font>
 								<label>$INFO[ListItem.Label]</label>
 							</control>
 							<control type="image">
