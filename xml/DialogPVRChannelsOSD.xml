@@ -32,16 +32,16 @@
 						</control>
 						<control type="image">
 							<left>770</left>
-							<top>10</top>
-							<width>90</width>
-							<bottom>10</bottom>
+							<top>2</top>
+							<width>98</width>
+							<bottom>2</bottom>
 							<aspectratio align="right">keep</aspectratio>
 							<texture>$INFO[listitem.icon]</texture>
 						</control>
 						<control type="progress">
 							<left>105</left>
-							<top>55</top>
-							<width>50</width>
+							<top>65</top>
+							<width>100</width>
 							<height>12</height>
 							<midtexture border="3">progress/texturebg_white.png</midtexture>
 							<visible>ListItem.HasEpg + !ListItem.IsRecording</visible>
@@ -56,23 +56,23 @@
 						</control>
 						<control type="label">
 							<left>105</left>
-							<top>5</top>
+							<top>0</top>
 							<height>90</height>
 							<width>600</width>
 							<aligny>top</aligny>
 							<animation effect="slide" start="0,0" end="0,18" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
-							<label>$INFO[ListItem.Label]</label>
-							<font>font14</font>
+							<label>$INFO[ListItem.Title]</label>
+							<font>font37</font>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
-							<left>165</left>
+							<left>214</left>
 							<top>45</top>
 							<height>90</height>
 							<width>580</width>
 							<aligny>top</aligny>
-							<font>font12</font>
-							<label>$INFO[ListItem.Title]</label>
+							<font>font14</font>
+							<label>$INFO[ListItem.Label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
@@ -89,16 +89,16 @@
 					<itemlayout height="90">
 						<control type="image">
 							<left>770</left>
-							<top>10</top>
-							<width>90</width>
-							<bottom>10</bottom>
+							<top>2</top>
+							<width>98</width>
+							<bottom>2</bottom>
 							<aspectratio align="right">keep</aspectratio>
 							<texture>$INFO[listitem.icon]</texture>
 						</control>
 						<control type="progress">
 							<left>105</left>
-							<top>55</top>
-							<width>50</width>
+							<top>65</top>
+							<width>100</width>
 							<height>12</height>
 							<colordiffuse>88FFFFFF</colordiffuse>
 							<visible>ListItem.HasEpg + !ListItem.IsRecording</visible>
@@ -117,19 +117,19 @@
 							<height>90</height>
 							<width>640</width>
 							<aligny>top</aligny>
-							<label>$INFO[ListItem.Label]</label>
-							<font>font14</font>
+							<label>$INFO[ListItem.Title]</label>
+							<font>font37</font>
 							<animation effect="slide" start="0,0" end="0,18" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
-							<left>165</left>
+							<left>214</left>
 							<top>45</top>
 							<height>90</height>
 							<width>580</width>
 							<aligny>top</aligny>
-							<font>font12</font>
-							<label>$INFO[ListItem.Title]</label>
+							<font>font14</font>
+							<label>$INFO[ListItem.Label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 							<textcolor>grey</textcolor>
 						</control>
