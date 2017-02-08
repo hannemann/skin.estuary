@@ -29,6 +29,7 @@
 							<bottom>0</bottom>
 							<aligny>center</aligny>
 							<textcolor>grey</textcolor>
+							<font>font37</font>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 						<control type="label">
@@ -37,6 +38,7 @@
 							<bottom>0</bottom>
 							<align>right</align>
 							<aligny>center</aligny>
+							<font>font37</font>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
@@ -54,6 +56,7 @@
 							<width>150</width>
 							<bottom>0</bottom>
 							<aligny>center</aligny>
+							<font>font37</font>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 						<control type="label">
@@ -62,6 +65,7 @@
 							<bottom>0</bottom>
 							<align>right</align>
 							<aligny>center</aligny>
+							<font>font37</font>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 						<control type="group">
@@ -71,14 +75,15 @@
 								<left>782</left>
 								<top>-100</top>
 								<width>900</width>
-								<height>350</height>
+								<height>650</height>
 								<texture border="40">buttons/dialogbutton-nofo.png</texture>
 							</control>
 							<control type="textbox">
 								<left>815</left>
 								<top>-70</top>
 								<width>760</width>
-								<height>290</height>
+								<height>590</height>
+								<font>font37</font>
 								<label>$INFO[ListItem.Plot]</label>
 							</control>
 						</control>
