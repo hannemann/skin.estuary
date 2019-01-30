@@ -37,16 +37,16 @@
 						</control>
 						<control type="image">
 							<right>20</right>
-							<top>10</top>
-							<width>80</width>
-							<height>70</height>
+							<top>2</top>
+							<width>98</width>
+							<height>88</height>
 							<aspectratio align="right">keep</aspectratio>
 							<texture>$INFO[listitem.icon]</texture>
 						</control>
 						<control type="progress">
 							<left>105</left>
-							<top>58</top>
-							<width>50</width>
+							<top>65</top>
+							<width>100</width>
 							<height>12</height>
 							<midtexture border="3">progress/texturebg_white.png</midtexture>
 							<visible>ListItem.HasEpg</visible>
@@ -65,19 +65,19 @@
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font14</font>
+							<font>font37</font>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
-							<label>$INFO[ListItem.Label]</label>
+							<label>$INFO[ListItem.Title]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
-							<left>165</left>
+							<left>214</left>
 							<top>46</top>
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font12</font>
-							<label>$INFO[ListItem.Title]</label>
+							<font>font14</font>
+							<label>$INFO[ListItem.Label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
@@ -95,18 +95,18 @@
 					<itemlayout height="90">
 						<control type="image">
 							<right>20</right>
-							<top>10</top>
-							<width>80</width>
-							<height>70</height>
+							<top>2</top>
+							<width>98</width>
+							<height>88</height>
 							<aspectratio align="right">keep</aspectratio>
 							<texture>$INFO[listitem.icon]</texture>
 						</control>
 						<control type="progress">
 							<left>105</left>
-							<top>58</top>
-							<width>50</width>
+							<top>65</top>
+							<width>100</width>
 							<height>12</height>
-							<colordiffuse>88FFFFFF</colordiffuse>
+							<!--<midtexture border="3">progress/texturebg_white.png</midtexture>-->
 							<visible>ListItem.HasEpg</visible>
 							<info>ListItem.Progress</info>
 						</control>
@@ -123,19 +123,19 @@
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font14</font>
-							<label>$INFO[ListItem.Label]</label>
+							<font>font37</font>
+							<label>$INFO[ListItem.Title]</label>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
-							<left>165</left>
+							<left>214</left>
 							<top>46</top>
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font12</font>
-							<label>$INFO[ListItem.Title]</label>
+							<font>font14</font>
+							<label>$INFO[ListItem.label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 							<textcolor>grey</textcolor>
 						</control>
@@ -317,7 +317,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<wrapmultiline>true</wrapmultiline>
-				<font>font27</font>
+				<font>font37</font>
 			</control>
 			<include>PVRChannelNumberInput</include>
 			<include>MediaMenuMouseOverlay</include>
