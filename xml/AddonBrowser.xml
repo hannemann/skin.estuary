@@ -17,7 +17,9 @@
 				<visible>Control.IsVisible(55)</visible>
 				<visible>Container.Content(addons) | Container.Content()</visible>
 				<include>Visible_Left</include>
-				<include>ListThumbInfoPanel</include>
+				<include content="ListThumbInfoPanel">
+					<param name="fallback_image" value="DefaultAddon.png" />
+				</include>
 			</control>
 			<include content="TopBar">
 				<param name="breadcrumbs_label" value="$LOCALIZE[24001]" />
@@ -63,7 +65,7 @@
 			<control type="group">
 				<height>78</height>
 				<bottom>0</bottom>
-				<visible>$EXP[sidebar_focused]</visible>
+				<visible>$EXP[sidebar_visible]</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<include content="LeftAlignedInfo">
 					<param name="main_label" value="$INFO[Window(AddonBrowser).Property(Updated)]" />
