@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.estuary-pvr" version="0.4.0" name="Estuary-PVR" provider-name="phil65, Ichabod Fletchman, Hannemann">
+<addon id="skin.estuary-pvr" version="0.4.1" name="Estuary-PVR" provider-name="phil65, Ichabod Fletchman, Hannemann">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
