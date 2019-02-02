@@ -61,22 +61,22 @@
 						</control>
 						<control type="label">
 							<left>105</left>
-							<top>8</top>
+							<top>0</top>
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font37</font>
+							<font>font45</font>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<label>$INFO[ListItem.Title]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
 							<left>214</left>
-							<top>46</top>
+							<top>52</top>
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font14</font>
+							<font>font12</font>
 							<label>$INFO[ListItem.Label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
@@ -119,22 +119,22 @@
 						</control>
 						<control type="label">
 							<left>105</left>
-							<top>8</top>
+							<top>0</top>
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font37</font>
+							<font>font45</font>
 							<label>$INFO[ListItem.Title]</label>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
 							<left>214</left>
-							<top>46</top>
+							<top>52</top>
 							<height>90</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font14</font>
+							<font>font12</font>
 							<label>$INFO[ListItem.label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 							<textcolor>grey</textcolor>
