@@ -36,6 +36,7 @@
 							<bottom>0</bottom>
 							<aligny>center</aligny>
 							<textcolor>grey</textcolor>
+							<font>font37</font>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 						<control type="label">
@@ -44,6 +45,7 @@
 							<bottom>0</bottom>
 							<align>right</align>
 							<aligny>center</aligny>
+							<font>font45</font>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
@@ -61,6 +63,7 @@
 							<width>150</width>
 							<bottom>0</bottom>
 							<aligny>center</aligny>
+							<font>font37</font>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 						<control type="label">
@@ -69,6 +72,7 @@
 							<bottom>0</bottom>
 							<align>right</align>
 							<aligny>center</aligny>
+							<font>font45</font>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 						<control type="group">
@@ -94,6 +98,7 @@
 								<top>-70</top>
 								<width>760</width>
 								<height>290</height>
+								<font>font45</font>
 								<label>$INFO[ListItem.Plot]</label>
 								<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 							</control>
