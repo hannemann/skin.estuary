@@ -265,7 +265,7 @@
 				<align>justify</align>
 				<autoscroll delay="5000" repeat="7500" time="5000"></autoscroll>
 				<visible>String.IsEmpty(PVR.EpgEventIcon)</visible>
-				<font>font37</font>
+				<font>font41</font>
 			</control>
 			<control type="textbox">
 				<left>260</left>
@@ -276,7 +276,7 @@
 				<align>justify</align>
 				<autoscroll delay="5000" repeat="7500" time="5000"></autoscroll>
 				<visible>!String.IsEmpty(PVR.EpgEventIcon)</visible>
-				<font>font37</font>
+				<font>font41</font>
 			</control>
 			<control type="image">
 				<right>30</right>
@@ -293,6 +293,7 @@
 				<height>25</height>
 				<label>[COLOR grey]$LOCALIZE[19031]:[/COLOR] $INFO[VideoPlayer.NextStartTime] - $INFO[VideoPlayer.NextEndTime]: $INFO[VideoPlayer.NextTitle]</label>
 				<visible>VideoPlayer.HasEpg + !RDS.HasRadioText</visible>
+				<font>font37</font>
 			</control>
 			<control type="label">
 				<left>260</left>
@@ -300,6 +301,7 @@
 				<height>25</height>
 				<label>[COLOR grey]$LOCALIZE[14304]: [/COLOR]$INFO[RDS.GetLine(0)]</label>
 				<visible>RDS.HasRadioText</visible>
+				<font>font37</font>
 			</control>
 		</control>
 		<control type="group">
