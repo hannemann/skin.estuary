@@ -230,7 +230,7 @@
 			<animation effect="fade" time="400">VisibleChange</animation>
 			<animation effect="slide" end="0,-20" time="150" condition="VideoPlayer.Content(LiveTV)">conditional</animation>
 			<bottom>0</bottom>
-			<height>380</height>
+			<height>580</height>
 			<control type="label">
 				<left>20</left>
 				<width>220</width>
@@ -245,7 +245,7 @@
 			<control type="image">
 				<left>0</left>
 				<width>100%</width>
-				<height>240</height>
+				<height>440</height>
 				<texture>dialogs/dialog-bg-nobo.png</texture>
 			</control>
 			<control type="image">
@@ -260,21 +260,23 @@
 				<left>260</left>
 				<top>10</top>
 				<right>30</right>
-				<height>160</height>
+				<height>360</height>
 				<label fallback="19055">$INFO[VideoPlayer.Plot]</label>
 				<align>justify</align>
 				<autoscroll delay="5000" repeat="7500" time="5000"></autoscroll>
 				<visible>String.IsEmpty(PVR.EpgEventIcon)</visible>
+				<font>font37</font>
 			</control>
 			<control type="textbox">
 				<left>260</left>
 				<top>10</top>
 				<right>260</right>
-				<height>160</height>
+				<height>360</height>
 				<label fallback="19055">$INFO[VideoPlayer.Plot]</label>
 				<align>justify</align>
 				<autoscroll delay="5000" repeat="7500" time="5000"></autoscroll>
 				<visible>!String.IsEmpty(PVR.EpgEventIcon)</visible>
+				<font>font37</font>
 			</control>
 			<control type="image">
 				<right>30</right>
@@ -287,14 +289,14 @@
 			</control>
 			<control type="label">
 				<left>260</left>
-				<top>180</top>
+				<top>380</top>
 				<height>25</height>
 				<label>[COLOR grey]$LOCALIZE[19031]:[/COLOR] $INFO[VideoPlayer.NextStartTime] - $INFO[VideoPlayer.NextEndTime]: $INFO[VideoPlayer.NextTitle]</label>
 				<visible>VideoPlayer.HasEpg + !RDS.HasRadioText</visible>
 			</control>
 			<control type="label">
 				<left>260</left>
-				<top>180</top>
+				<top>380</top>
 				<height>25</height>
 				<label>[COLOR grey]$LOCALIZE[14304]: [/COLOR]$INFO[RDS.GetLine(0)]</label>
 				<visible>RDS.HasRadioText</visible>
