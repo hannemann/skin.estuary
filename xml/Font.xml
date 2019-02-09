@@ -53,6 +53,12 @@
 			<style>lighten</style>
 		</font>
 		<font>
+			<name>font41</name>
+			<filename>NotoSans-Regular.ttf</filename>
+			<size>41</size>
+			<style>lighten</style>
+		</font>
+		<font>
 			<name>font45</name>
 			<filename>NotoSans-Regular.ttf</filename>
 			<size>45</size>
