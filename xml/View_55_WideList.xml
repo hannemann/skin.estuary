@@ -54,6 +54,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$VAR[ListLabel2Var]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 				</focusedlayout>
@@ -83,6 +84,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$VAR[ListLabel2Var]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 				</itemlayout>
@@ -109,6 +111,7 @@
 						<aligny>center</aligny>
 						<scroll>true</scroll>
 						<label>$INFO[ListItem.Label]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 					<control type="label">
@@ -119,6 +122,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$VAR[ListLabel2Var]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 				</focusedlayout>
@@ -137,6 +141,7 @@
 						<right>40</right>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 					<control type="label">
@@ -147,6 +152,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$VAR[ListLabel2Var]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 				</itemlayout>
@@ -175,6 +181,7 @@
 						<aligny>center</aligny>
 						<scroll>true</scroll>
 						<label>$INFO[ListItem.Label]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 				</focusedlayout>
@@ -194,6 +201,7 @@
 						<right>100</right>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
+						<font>font37</font>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 				</itemlayout>
@@ -218,6 +226,7 @@
 				<aligny>center</aligny>
 				<scroll>true</scroll>
 				<label>$INFO[ListItem.Label]</label>
+				<font>font37</font>
 				<shadowcolor>text_shadow</shadowcolor>
 			</control>
 			<control type="label">
@@ -228,6 +237,7 @@
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Label2]</label>
 				<shadowcolor>text_shadow</shadowcolor>
+				<font>font37</font>
 			</control>
 		</focusedlayout>
 		<itemlayout height="80" condition="Container.Content(songs)">
@@ -237,6 +247,7 @@
 				<right>40</right>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Label]</label>
+				<font>font37</font>
 				<shadowcolor>text_shadow</shadowcolor>
 			</control>
 			<control type="label">
@@ -246,6 +257,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Label2]</label>
+				<font>font37</font>
 				<textcolor>grey</textcolor>
 				<shadowcolor>text_shadow</shadowcolor>
 			</control>
@@ -273,6 +285,7 @@
 				<right>40</right>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
+				<font>font37</font>
 				<label>$INFO[ListItem.Label]</label>
 			</control>
 			<control type="label">
@@ -282,6 +295,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font27</font>
+				<font>font37</font>
 				<label>$VAR[AddonsLabel2Var]</label>
 			</control>
 		</focusedlayout>
@@ -299,6 +313,7 @@
 				<right>40</right>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
+				<font>font37</font>
 				<label>$INFO[ListItem.Label]</label>
 			</control>
 			<control type="label">
@@ -308,6 +323,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font27</font>
+				<font>font37</font>
 				<label>$VAR[AddonsLabel2Var]</label>
 				<textcolor>grey</textcolor>
 				<shadowcolor>text_shadow</shadowcolor>

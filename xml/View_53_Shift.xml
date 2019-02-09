@@ -183,8 +183,10 @@
 				<top>45</top>
 				<right>30</right>
 				<height>163</height>
+				<font>font37</font>
 				<label>$PARAM[textbox_content]</label>
 				<shadowcolor>text_shadow</shadowcolor>
+				<autoscroll time="3000" delay="5000" repeat="5000">!System.HasActiveModalDialog + Skin.HasSetting(AutoScroll)</autoscroll>
 			</control>
 		</control>
 	</include>
