@@ -13,7 +13,7 @@
 				</include>
 				<control type="fixedlist" id="11">
 					<left>0</left>
-					<width>875</width>
+					<right>0</right>
 					<height>100%</height>
 					<onleft>PreviousChannelGroup</onleft>
 					<onright>60</onright>
@@ -86,6 +86,46 @@
 							<font>font32_title</font>
 							<label>$INFO[ListItem.ChannelNumberLabel]</label>
 							<shadowcolor>text_shadow</shadowcolor>
+						</control>
+						<!-- Add epg info box -->
+						<control type="group">
+							<visible>!String.IsEmpty(ListItem.Plot) + Control.HasFocus(11)</visible>
+							<animation effect="fade" start="0" end="100" time="200">Focus</animation>
+							<control type="image">
+								<left>862</left>
+								<top>-100</top>
+								<width>1072</width>
+								<height>410</height>
+								<texture border="40">buttons/dialogbutton-nofo.png</texture>
+							</control>
+							<control type="image">
+								<left>895</left>
+								<top>-65</top>
+								<width>320</width>
+								<height>280</height>
+								<aspectratio align="center" aligny="center">keep</aspectratio>
+								<texture fallback="DefaultTVShows.png" >$INFO[Listitem.Icon]</texture>
+							</control>
+							<control type="textbox">
+								<left>1225</left>
+								<top>-70</top>
+								<width>650</width>
+								<height>290</height>
+								<font>font45</font>
+								<label>$INFO[ListItem.Plot]</label>
+								<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
+							</control>
+							<control type="label">
+								<top>225</top>
+								<left>920</left>
+								<height>60</height>
+								<width>950</width>
+								<visible>!String.isempty(ListItem.NextTitle)</visible>
+								<font>font37</font>
+								<label>[COLOR grey]$LOCALIZE[19031]:[/COLOR] $INFO[ListItem.NextStartTime] $INFO[ListItem.NextTitle]</label>
+								<shadowcolor>text_shadow</shadowcolor>
+							</control>
+						<!-- /Add epg info box -->
 						</control>
 					</focusedlayout>
 					<itemlayout height="90" width="875">
