@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes><!-- estuary pvr variables -->
+	<variable name="PVRChannelFontSizeLabel2Var">
+		<value condition="Skin.HasSetting(channel_font_normal)">$LOCALIZE[40002]</value>
+		<value condition="Skin.HasSetting(channel_font_bigger)">$LOCALIZE[40003]</value>
+		<value condition="Skin.HasSetting(channel_font_huge)">$LOCALIZE[40004]</value>
+		<value condition="Skin.HasSetting(channel_font_normal_bold)">$LOCALIZE[40005]</value>
+		<value condition="Skin.HasSetting(channel_font_bigger_bold)">$LOCALIZE[40006]</value>
+		<value condition="Skin.HasSetting(channel_font_huge_bold)">$LOCALIZE[40007]</value>
+		<value>$LOCALIZE[40002]</value>
+	</variable>
+</includes>

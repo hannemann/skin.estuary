@@ -571,3 +571,35 @@ msgstr "Profil-Name"
 msgctxt "#31166"
 msgid "Profile avatar"
 msgstr "Profil-Avatar"
+
+msgctxt "#40000"
+msgid "PVR Settings"
+msgstr "TV Einstellungen"
+
+msgctxt "#40001"
+msgid "Font size channellist"
+msgstr "Schriftgröße Kanalliste"
+
+msgctxt "#40002"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "#40003"
+msgid "Bigger"
+msgstr "Größer"
+
+msgctxt "#40004"
+msgid "Huge"
+msgstr "Riesig"
+
+msgctxt "#40005"
+msgid "Normal Bold"
+msgstr "Normal Fett"
+
+msgctxt "#40006"
+msgid "Bigger Bold"
+msgstr "Größer Fett"
+
+msgctxt "#40007"
+msgid "Huge Bold"
+msgstr "Riesig Fett"

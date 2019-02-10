@@ -107,6 +107,16 @@
 			<size>36</size>
 		</font>
 		<font>
+			<name>font37_title</name>
+			<filename>NotoSans-Bold.ttf</filename>
+			<size>37</size>
+		</font>
+		<font>
+			<name>font41_title</name>
+			<filename>NotoSans-Bold.ttf</filename>
+			<size>41</size>
+		</font>
+		<font>
 			<name>font45_title</name>
 			<filename>NotoSans-Bold.ttf</filename>
 			<size>45</size>

@@ -525,4 +525,52 @@
 			</control>
 		</definition>
 	</include>
+
+	
+	<include name="PVRChannelTitleLabel">
+		<control type="group">
+			<left>105</left>
+			<height>90</height>
+			<right>120</right>
+			<aligny>top</aligny>
+			<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
+			<shadowcolor>text_shadow</shadowcolor>
+			<control type="label">
+				<visible>[!Skin.HasSetting(channel_font_normal) + !Skin.HasSetting(channel_font_bigger) + !Skin.HasSetting(channel_font_huge) + !Skin.HasSetting(channel_font_normal_bold) + !Skin.HasSetting(channel_font_bigger_bold) + !Skin.HasSetting(channel_font_huge_bold)] | Skin.HasSetting(channel_font_normal)</visible>
+				<top>8</top>
+				<font>font37</font>
+				<label>$INFO[ListItem.Title]</label>
+			</control>
+			<control type="label">
+				<top>4</top>
+				<visible>Skin.HasSetting(channel_font_bigger)</visible>
+				<font>font41</font>
+				<label>$INFO[ListItem.Title]</label>
+			</control>
+			<control type="label">
+				<visible>Skin.HasSetting(channel_font_huge)</visible>
+				<top>0</top>
+				<font>font45</font>
+				<label>$INFO[ListItem.Title]</label>
+			</control>
+			<control type="label">
+				<visible>Skin.HasSetting(channel_font_normal_bold)</visible>
+				<top>8</top>
+				<font>font37_title</font>
+				<label>$INFO[ListItem.Title]</label>
+			</control>
+			<control type="label">
+				<top>4</top>
+				<visible>Skin.HasSetting(channel_font_bigger_bold)</visible>
+				<font>font41_title</font>
+				<label>$INFO[ListItem.Title]</label>
+			</control>
+			<control type="label">
+				<visible>Skin.HasSetting(channel_font_huge_bold)</visible>
+				<top>0</top>
+				<font>font45_title</font>
+				<label>$INFO[ListItem.Title]</label>
+			</control>
+		</control>
+	</include>
 </includes>

@@ -20,6 +20,25 @@
 		<control type="group" id="10000">
 			<left>470</left>
 			<include>OpenClose_Right</include>
+
+			<control type="grouplist" id="800">
+				<top>160</top>
+				<left>0</left>
+				<right>0</right>
+				<bottom>140</bottom>
+				<onleft>9000</onleft>
+				<onright>60</onright>
+				<onup>700</onup>
+				<ondown>700</ondown>
+				<visible>Container(9000).HasFocus(4)</visible>
+				<control type="button" id="801">
+					<label>$LOCALIZE[40001]</label>
+					<include>DefaultSettingButton</include>
+					<onclick>Skin.SelectBool(40001, 40002|channel_font_normal, 40003|channel_font_bigger, 40004|channel_font_huge, 40005|channel_font_normal_bold, 40006|channel_font_bigger_bold, 40007|channel_font_huge_bold)</onclick>
+					<label2>$VAR[PVRChannelFontSizeLabel2Var]</label2>
+				</control>
+			</control>
+
 			<control type="grouplist" id="700">
 				<top>160</top>
 				<left>0</left>
@@ -310,6 +329,10 @@
 					</item>
 					<item id="3">
 						<label>$LOCALIZE[31159]</label>
+						<onclick>noop</onclick>
+					</item>
+					<item id="4">
+						<label>$LOCALIZE[40000]</label>
 						<onclick>noop</onclick>
 					</item>
 				</content>

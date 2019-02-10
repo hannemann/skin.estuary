@@ -765,3 +765,51 @@ msgstr ""
 msgctxt "#31167"
 msgid "Animate background"
 msgstr ""
+
+#. Label of a settings category
+#: /xml/SkinSettings.xml
+msgctxt "#40000"
+msgid "PVR Settings"
+msgstr "PVR Settings"
+
+#. Label of a settings
+#: /xml/SkinSettings.xml
+msgctxt "#40001"
+msgid "Font size channellist"
+msgstr "Font size channellist"
+
+#. Label of a settings
+#: /xml/SkinSettings.xml
+msgctxt "#40002"
+msgid "Normal"
+msgstr "Normal"
+
+#. Label of a settings
+#: /xml/SkinSettings.xml
+msgctxt "#40003"
+msgid "Bigger"
+msgstr "Bigger"
+
+#. Label of a settings
+#: /xml/SkinSettings.xml
+msgctxt "#40004"
+msgid "Huge"
+msgstr "Huge"
+
+#. Label of a settings
+#: /xml/SkinSettings.xml
+msgctxt "#40005"
+msgid "Normal Bold"
+msgstr "Normal Bold"
+
+#. Label of a settings
+#: /xml/SkinSettings.xml
+msgctxt "#40006"
+msgid "Bigger Bold"
+msgstr "Bigger Bold"
+
+#. Label of a settings
+#: /xml/SkinSettings.xml
+msgctxt "#40007"
+msgid "Huge Bold"
+msgstr "Huge Bold"

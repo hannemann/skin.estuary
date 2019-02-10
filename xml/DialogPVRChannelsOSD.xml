@@ -55,17 +55,9 @@
 							<height>40</height>
 							<texture>$VAR[PVRStatusImageVar]</texture>
 						</control>
-						<control type="label">
-							<left>105</left>
-							<top>0</top>
-							<height>90</height>
-							<right>120</right>
-							<aligny>top</aligny>
-							<font>font45</font>
-							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
-							<label>$INFO[ListItem.Title]</label>
-							<shadowcolor>text_shadow</shadowcolor>
-						</control>
+						
+						<include>PVRChannelTitleLabel</include>
+
 						<control type="label">
 							<left>214</left>
 							<top>52</top>
@@ -153,17 +145,9 @@
 							<height>40</height>
 							<texture>$VAR[PVRStatusImageVar]</texture>
 						</control>
-						<control type="label">
-							<left>105</left>
-							<top>0</top>
-							<height>90</height>
-							<right>120</right>
-							<aligny>top</aligny>
-							<font>font45</font>
-							<label>$INFO[ListItem.Title]</label>
-							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
-							<shadowcolor>text_shadow</shadowcolor>
-						</control>
+						
+						<include>PVRChannelTitleLabel</include>
+
 						<control type="label">
 							<left>214</left>
 							<top>52</top>
