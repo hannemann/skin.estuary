@@ -220,10 +220,12 @@
 					<top>150</top>
 					<height>262</height>
 					<control type="label">
+						<font>font37</font>
 						<label>$INFO[ListItem.StartTime]</label>
 					</control>
 					<control type="label">
 						<align>right</align>
+						<font>font37</font>
 						<label>$INFO[ListItem.EndTime]</label>
 					</control>
 					<control type="progress">
@@ -268,7 +270,8 @@
 				<width>830</width>
 				<bottom>75</bottom>
 				<label>$INFO[ListItem.Plot]</label>
-				<autoscroll delay="10000" time="3000" repeat="10000">Skin.HasSetting(AutoScroll)</autoscroll>
+				<font>font37</font>
+				<autoscroll delay="5000" time="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 			</control>
 			<control type="textbox">
 				<top>530</top>
@@ -307,6 +310,7 @@
 							<height>90</height>
 							<width>830</width>
 							<aligny>center</aligny>
+							<font>font37</font>
 							<label>$INFO[ListItem.Date,[COLOR grey],[/COLOR][CR]]$INFO[ListItem.Label]$INFO[ListItem.EpisodeName, (,)]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
@@ -317,6 +321,7 @@
 							<height>90</height>
 							<width>830</width>
 							<aligny>center</aligny>
+							<font>font37</font>
 							<label>$INFO[ListItem.Date,[COLOR grey],[/COLOR][CR]]$INFO[ListItem.Label]$INFO[ListItem.EpisodeName, (,)]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
