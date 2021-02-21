@@ -13,7 +13,7 @@
 				</include>
 				<control type="fixedlist" id="11">
 					<left>0</left>
-					<width>875</width>
+					<width>100%</width>
 					<height>100%</height>
 					<onleft>PreviousChannelGroup</onleft>
 					<onright>60</onright>
@@ -63,7 +63,7 @@
 							<aligny>top</aligny>
 							<font>font14</font>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
-							<label>$INFO[ListItem.Label]</label>
+							<label>$INFO[ListItem.Title]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
@@ -73,7 +73,7 @@
 							<right>120</right>
 							<aligny>top</aligny>
 							<font>font12</font>
-							<label>$INFO[ListItem.Title]</label>
+							<label>$INFO[ListItem.Label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 						<control type="label">
@@ -87,6 +87,55 @@
 							<label>$INFO[ListItem.ChannelNumberLabel]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
+						<!-- Add epg info box -->
+						<control type="group">
+							<visible>!String.IsEmpty(ListItem.Plot) + Control.HasFocus(11)</visible>
+							<animation effect="fade" start="0" end="100" time="200">Focus</animation>
+							<control type="image">
+								<left>862</left>
+								<top>-100</top>
+								<width>1072</width>
+								<height>500</height>
+								<texture border="40">buttons/dialogbutton-nofo.png</texture>
+							</control>
+							<control type="label">
+								<left>895</left>
+								<top>-80</top>
+								<width>1006</width>
+								<height>30</height>
+								<font>font45</font>
+								<label>$INFO[ListItem.Title]</label>
+								<shadowcolor>text_shadow</shadowcolor>
+							</control>
+							<control type="image">
+								<left>895</left>
+								<top>25</top>
+								<width>320</width>
+								<height>280</height>
+								<aspectratio align="center" aligny="center">keep</aspectratio>
+								<texture fallback="DefaultTVShows.png" >$INFO[Listitem.Icon]</texture>
+							</control>
+							<control type="textbox">
+								<left>1225</left>
+								<top>20</top>
+								<width>650</width>
+								<height>290</height>
+								<font>font45</font>
+								<label>$INFO[ListItem.Plot]</label>
+								<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
+							</control>
+							<control type="label">
+								<top>315</top>
+								<left>920</left>
+								<height>60</height>
+								<width>950</width>
+								<visible>!String.isempty(ListItem.NextTitle)</visible>
+								<font>font37</font>
+								<label>[COLOR grey]$LOCALIZE[19031]:[/COLOR] $INFO[ListItem.NextStartTime] $INFO[ListItem.NextTitle]</label>
+								<shadowcolor>text_shadow</shadowcolor>
+							</control>
+						</control>
+						<!-- /Add epg info box -->
 					</focusedlayout>
 					<itemlayout height="90" width="875">
 						<control type="image">
@@ -120,7 +169,7 @@
 							<right>120</right>
 							<aligny>top</aligny>
 							<font>font14</font>
-							<label>$INFO[ListItem.Label]</label>
+							<label>$INFO[ListItem.Title]</label>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
@@ -131,7 +180,7 @@
 							<right>120</right>
 							<aligny>top</aligny>
 							<font>font12</font>
-							<label>$INFO[ListItem.Title]</label>
+							<label>$INFO[ListItem.Label]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 							<textcolor>grey</textcolor>
 						</control>
