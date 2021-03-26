@@ -57,11 +57,11 @@
 						</control>
 						<control type="label">
 							<left>105</left>
-							<top>8</top>
-							<height>90</height>
+							<top>5</top>
+							<height>94</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font14</font>
+							<font>font37</font>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<label>$INFO[ListItem.Title]</label>
 							<shadowcolor>text_shadow</shadowcolor>
@@ -164,11 +164,11 @@
 						</control>
 						<control type="label">
 							<left>105</left>
-							<top>8</top>
-							<height>90</height>
+							<top>5</top>
+							<height>94</height>
 							<right>120</right>
 							<aligny>top</aligny>
-							<font>font14</font>
+							<font>font37</font>
 							<label>$INFO[ListItem.Title]</label>
 							<animation effect="slide" start="0,0" end="0,14" time="0" condition="String.IsEmpty(ListItem.Title)">Conditional</animation>
 							<shadowcolor>text_shadow</shadowcolor>
